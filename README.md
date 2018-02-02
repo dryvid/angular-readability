@@ -27,6 +27,6 @@ What | Naming Convention | e.g.
 ---- | ----------------- | ----
 Callback that listens to a child component output | Prefixed by `to` to differentiate from the `on` callbacks | `toAddPost`
 `Output` `EventEmitter` | Prefixed by `output` and followed by a noun term | `outputFormData`
-`Output` `EventEmitter` for passing data from a child component output to the parent component | Prefixed by `passUp` as if the component is saying "I'm simply passing up the data, it's not from me." | `passUpOutputFormData`
+`Output` `EventEmitter` for passing data from a child component output to the parent component | Prefixed by `passUp` as if the component is saying "I'm simply passing up the data, it's not from me." | `passUpFormData`
 
 Basically, callbacks that are not "triggered" by the component itself get the `to` prefix instead of the typical `on`. And having special prefixes like `output` and `passUp` for `EventEmitter` properties makes your template code easier to understand.
