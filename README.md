@@ -14,7 +14,7 @@ Callback Naming Conventions | You can tell what the code's doing simply by looki
 
 If you like to have logic and template on the same page, this trick will make your code easier to follow, because data initially flows from the logic to the template.
 
-## Static Render Method
+## Directives Indentation
 ![Directives Indentation](https://github.com/dryvid/angular-readability/blob/master/img/indent-1.png?raw=true)
 
 ![Directives Indentation](https://github.com/dryvid/angular-readability/blob/master/img/indent-2.png?raw=true)
